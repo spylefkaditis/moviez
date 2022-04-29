@@ -1,0 +1,36 @@
+.button {
+  padding: 5px 10px;
+  color: var(--font-color);
+  font-weight: 700;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background-color: var(--theme-primary);
+}
+
+.buttonPrimary:hover {
+  background-color: var(--theme-primary-hover);
+}
+
+.buttonSecondary {
+  background-color: var(--theme-secondary);
+}
+
+.buttonSecondary:hover {
+  background-color: var(--theme-secondary-hover);
+}
+
+.buttonLarge {
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.buttonText {
+  text-transform: uppercase;
+}

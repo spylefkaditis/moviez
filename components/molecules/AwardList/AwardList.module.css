@@ -1,0 +1,22 @@
+.awardList {
+  max-width: 1024px;
+  padding-bottom: 50px;
+  background-color: #000;
+  animation: fadeIn 1s;
+}
+
+.submitButton {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

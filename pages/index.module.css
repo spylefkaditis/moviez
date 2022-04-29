@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.pageTitle {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 2px;
+}
